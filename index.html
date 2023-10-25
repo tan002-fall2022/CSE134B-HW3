@@ -6,6 +6,7 @@
     <meta name="description" content="Home/About page"/>
     <meta name="keywords" content="HTML, UX, Portfolio" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title> TUNG NGUYEN'S PORTFOLIO SITE </title>
 </head>
 <style>
@@ -14,7 +15,9 @@
 
 <body>
     <header>
-        <strong class="my-name"> Tung Nguyen </strong>
+        <span class="TODO-styling">
+            <strong class="my-name"> Tung Nguyen </strong>
+        </span>
         <nav class="nav-bar">
             <a href="index.html"><b>Home</b></a>
             <a href="portfolio.html"><b>Portfolio</b></a>
@@ -22,10 +25,15 @@
             <a href="services.html"><b>Services</b></a>
         </nav>
     </header>
-    
+
     <main>
         <section class="BIO">
-            <img align="left" src="Pictures/TEST.png" alt="profile-picture">
+            <picture>
+                <source media="(min-width: 900px)" srcset="Pictures/img-large.png">
+                <source media="(min-width: 600px)" srcset="Pictures/img-medium.png">
+                <img src="Pictures/img-small.png" alt="profile-picture">
+            </picture>
+            
             <h1><em> Hello! </em></h1>
             <h2> Welcome to my page! </h2>
             <p> SHORT <br> BIO <br> HERE </p>
@@ -38,7 +46,12 @@
         <hr>
     
         <section class="LATEST-PROJECT">
-            <img align="top" src="Pictures/TEST.png" alt="project-picture">
+            <picture>
+                <source media="(min-width: 900px)" srcset="Pictures/img-large.png">
+                <source media="(min-width: 600px)" srcset="Pictures/img-medium.png">
+                <img src="Pictures/img-small.png" alt="profile-picture">
+            </picture>
+
             <h1><em> UPCOMING PROJECT'S NAME </em></h1>
             <p> SHORT <br> DESCRIPTION </p>
     
@@ -49,7 +62,12 @@
         <hr>
     
         <section class="">
-            <img align="top" src="Pictures/TEST.png" alt="service-picture">
+            <picture>
+                <source media="(min-width: 900px)" srcset="Pictures/img-large.png">
+                <source media="(min-width: 600px)" srcset="Pictures/img-medium.png">
+                <img src="Pictures/img-small.png" alt="profile-picture">
+            </picture>
+
             <h1><em> UPCOMING SERVICE'S NAME </em></h1>
             <p> SHORT <br> DESCRIPTION </p>
     
@@ -57,8 +75,11 @@
                 <input type="submit" value="See More">
             </form>
         </section>
-        <hr>
     </main>
 </body>
+
+<script>
+
+</script>
 
 </html>
