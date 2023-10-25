@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Home/About page"/>
+    <meta name="keywords" content="HTML, UX, Portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title> TUNG NGUYEN'S PORTFOLIO SITE </title>
+</head>
+<style>
+
+</style>
+
+<body>
+    <header>
+        <span class="TODO-styling">
+            <strong class="my-name"> Tung Nguyen </strong>
+        </span>
+        <nav class="nav-bar">
+            <a href="index.html"><b>Home</b></a>
+            <a href="portfolio.html"><b>Portfolio</b></a>
+            <a href="contact.html"><b>Contact</b></a>
+            <a href="services.html"><b>Services</b></a>
+        </nav>
+    </header>
+
+    <main>
+        <em> Current Project </em>
+        <section id="current-project">
+            <video controls>
+                <source src="movie.mp4" type="video/mp4">
+                <source src="movie.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+
+            <h1> Project's Name </h2>
+            <h2> Project's Date Range </h2>
+            <h3> Project's Members </h3>
+
+            <details>
+                <summary> Current plans </summary>
+                <p> Project's Description </p>
+            </details>
+            
+            <form action="">
+                <input type="submit" value="Learn More">
+            </form>
+        </section>
+        <hr>
+
+        <em> Past Projects </em>
+        <section id="past-project-1">
+            <picture>
+                <source media="(min-width: 900px)" srcset="Pictures/img-large.png">
+                <source media="(min-width: 600px)" srcset="Pictures/img-medium.png">
+                <img src="Pictures/img-small.png" alt="project-picture">
+            </picture>
+
+            <h1> Project's Name </h2>
+            <h2> Project's Date Range </h2>
+            <h3> Project's Members </h3>
+
+            <details>
+                <summary> What was it about </summary>
+                <p> Project's Description </p>
+            </details>
+
+            <figure class="project-accomplishments">
+                <figcaption>Accomplishments</figcaption>
+                <ul>
+                    <li>Accomplishment 1</li>
+                    <li>Accomplishment 2</li>
+                    <li>Accomplishment 3</li>
+                </ul>
+            </figure>
+        </section>
+        <hr>
+
+        <section id="past-project-2">
+            <picture>
+                <source media="(min-width: 900px)" srcset="Pictures/img-large.png">
+                <source media="(min-width: 600px)" srcset="Pictures/img-medium.png">
+                <img src="Pictures/img-small.png" alt="project-picture">
+            </picture>
+
+            <h1> Project's Name </h2>
+            <h2> Project's Date Range </h2>
+            <h3> Project's Members </h3>
+
+            <details>
+                <summary> What was it about </summary>
+                <p> Project's Description </p>
+            </details>
+
+            <figure class="project-accomplishments">
+                <figcaption>Accomplishments</figcaption>
+                <ul>
+                    <li>Accomplishment 1</li>
+                    <li>Accomplishment 2</li>
+                    <li>Accomplishment 3</li>
+                </ul>
+            </figure>
+        </section>
+        <hr>
+
+        <section id="past-project-3">
+            <picture>
+                <source media="(min-width: 900px)" srcset="Pictures/img-large.png">
+                <source media="(min-width: 600px)" srcset="Pictures/img-medium.png">
+                <img src="Pictures/img-small.png" alt="project-picture">
+            </picture>
+
+            <h1> Project's Name </h2>
+            <h2> Project's Date Range </h2>
+            <h3> Project's Members </h3>
+
+            <details>
+                <summary> What was it about </summary>
+                <p> Project's Description </p>
+            </details>
+
+            <figure class="project-accomplishments">
+                <figcaption>Accomplishments</figcaption>
+                <ul>
+                    <li>Accomplishment 1</li>
+                    <li>Accomplishment 2</li>
+                    <li>Accomplishment 3</li>
+                </ul>
+            </figure>
+        </section>
+        <hr>
+        
+        <button onclick="showMore()"> See More </button>
+        
+        <template>
+            <section id="past-project-4">
+                <picture>
+                    <source media="(min-width: 900px)" srcset="Pictures/img-large.png">
+                    <source media="(min-width: 600px)" srcset="Pictures/img-medium.png">
+                    <img src="Pictures/img-small.png" alt="project-picture">
+                </picture>
+    
+                <h1> Project's Name </h2>
+                <h2> Project's Date Range </h2>
+                <h3> Project's Members </h3>
+    
+                <details>
+                    <summary> What was it about </summary>
+                    <p> Project's Description </p>
+                </details>
+    
+                <figure class="project-accomplishments">
+                    <figcaption>Accomplishments</figcaption>
+                    <ul>
+                        <li>Accomplishment 1</li>
+                        <li>Accomplishment 2</li>
+                        <li>Accomplishment 3</li>
+                    </ul>
+                </figure>
+            </section>
+            <hr>
+        </template>
+    </main>
+</body>
+
+<script>
+    function showMore() {}
+</script>
+
+</html>
