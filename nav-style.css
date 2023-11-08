@@ -1,0 +1,47 @@
+:root {
+    --primary-color: white;
+    --secondary-color: rgb(132, 74, 132);
+    --third-color: rgb(221, 121, 221);
+    --font-color: black; 
+}
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* These are styling for the nav bar */
+.nav-bar {
+    overflow: hidden;
+    position: fixed;
+    background-color: var(--primary-color, black);
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    color: var(--font-color, purple);
+}
+
+.nav-bar .my-name {
+    position: absolute;
+    font-weight: bold;
+    top: 1em;
+    left: 1em;
+}
+
+.nav-bar a {
+    float: right;
+    display: block;
+    padding: 1em 1em;
+    text-align: center;
+}
+
+.nav-bar a:hover {
+    background: var(--secondary-color, white);
+    color: var(--primary-color, black);
+}
+
+body {
+    margin: 3.1em 0 0 0;
+}
+
+
+
