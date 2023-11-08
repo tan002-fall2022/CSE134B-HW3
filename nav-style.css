@@ -14,9 +14,10 @@
     overflow: hidden;
     position: fixed;
     background-color: var(--primary-color, black);
-    top: 0px;
-    left: 0px;
+    top: 0em;
+    left: 0em;
     width: 100%;
+    height: auto;
     color: var(--font-color, purple);
 }
 
@@ -25,6 +26,17 @@
     font-weight: bold;
     top: 1em;
     left: 1em;
+    transition: all 0.5s ease-out;
+}
+
+@media only screen and (max-width: 720px) {
+    .nav-bar .my-name {
+        display: none !important;
+    }
+}
+
+.nav-bar .my-name:hover {
+    color: var(--third-color, purple);
 }
 
 .nav-bar a {
@@ -32,9 +44,10 @@
     display: block;
     padding: 1em 1em;
     text-align: center;
+    transition: all 0.5s ease-out;
 }
 
-.nav-bar a:hover {
+.nav-bar a:hover, a:focus {
     background: var(--secondary-color, white);
     color: var(--primary-color, black);
 }
