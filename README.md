@@ -1,7 +1,7 @@
-# CSE134B-HW2
+# CSE134B-HW3
 # Name: Tung Nguyen
 # PID: A16299886
 
-Hello, welcome to my repo for HW2./
+Hello, welcome to my repo for HW3./
 
-The planning powerpoint and its pdf are in folder "Planning".
+The HTMLs were copied from CSE134B-HW2. This repo is for styling the pages using CSS.
